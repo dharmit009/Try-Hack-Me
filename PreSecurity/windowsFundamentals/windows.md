@@ -1,6 +1,6 @@
 # Windows
 
-The Windows Operating system has been around for almost 36 yearsthat is from 1985 to 2021. It has been the dominant operating system all over the world for home use as well as corporate use. 
+The Windows Operating system has been around for almost 36 years that is from 1985 to 2021. It has been the dominant operating system all over the world for home use as well as corporate use. 
 
 There are various versions of windows some of them are as follows: 
 1. Windows xp.
@@ -29,7 +29,7 @@ The modern windows operating system uses New Technology File System a.k.a `NTFS`
 
 > NTFS is known as a journaling file system. In case of a failure, the file system can automatically repair the folders/files on disk using information stored in a log file. This function is not possible with FAT.   
 
-### Limitations which NTFS Overcamed: 
+### Limitations Which NTFS Overcamed From Previous Generation File Systems: 
 
 1. Supports files larger than 4GB
 1. Set specific permissions on folders and files
@@ -39,8 +39,9 @@ The modern windows operating system uses New Technology File System a.k.a `NTFS`
 
 ### SYSTEM VARIABLES AND RUN COMMANDS. 
 
-%windir% --> Takes you to the windows directory. 
-lusrmgr.msc --> Launches Local Users and Group Manager.
+- `%windir%` --> Takes you to the windows directory. 
+- `lusrmgr.msc` --> Launches Local Users and Group Manager.
+- `control /name Microsoft.WindowsUpdate` --> This opens up update page for windows. 
 
 ## MISC.
 
