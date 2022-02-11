@@ -36,14 +36,21 @@ Here are some of the standard ports.
 Let us break this down a bit ... 
 
 `nmap -sT -T4 -p0-65535 <ip or ip-range>`
+
   |    |   |   |        |
+  
   |    |   |   |        |--> Perform everything on this ip or ip-range. 
+  
   |    |   |   |--> Scan Ports 0 to 65535
+  
   |    |   |--> Set Speed Of Scan = 4 out of 5. 
+  
   |    | --> TCP SCAN. 
+  
   |--> Network Mapper. 
   
-  > *NOTE:* This is a basic nmap scan so the syntax may look a lot more different. The above example of a TCP scan. 
+  
+  > **NOTE:** This is a basic nmap scan so the syntax may look a lot more different. The above example of a TCP scan. 
 
 ## How to run scripts?
 
